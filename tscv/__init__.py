@@ -7,7 +7,7 @@ from ._split import CombinatorialGapKFold
 from ._split import gap_train_test_split
 
 
-__version__ = '0.1.2'
+__version__ = '0.2.dev'
 
 __all__ = ['GapCrossValidator',
            'GapLeavePOut',
