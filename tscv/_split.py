@@ -16,8 +16,7 @@ from inspect import signature
 import numpy as np
 from sklearn.utils import indexable
 from sklearn.utils.validation import _num_samples, check_consistent_length
-from sklearn.base import _pprint
-from sklearn.utils import _safe_indexing
+from sklearn.utils import _safe_indexing, _pprint
 
 
 __all__ = ['GapCrossValidator',
